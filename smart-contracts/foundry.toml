@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+
+[rpc_endpoints]
+sepolia = "https://hidden-virulent-ensemble.ethereum-sepolia.quiknode.pro/c3bdbbe5bee6abeda83d2b0617fe6bfbfa2ac51b/"
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
