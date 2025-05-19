@@ -3,15 +3,16 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { TransactionContext } from "../context/Transactioncontext";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // import logo from "../../images/logo.png";
 import logo from "../../images/logo23.png";
 
 const NavBarItem = ({ title, link, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>
-    <a target="_blank" href={link} className="text-white hover:underline">
+    <Link target="_blank" to={link} className="text-white hover:underline">
       {title}
-    </a>
+    </Link>
   </li>
 );
 
