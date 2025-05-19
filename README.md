@@ -59,7 +59,3 @@ Make sure you have Foundry installed
 ✨ Demo
 Live link (if deployed):
 🔗 https://your-live-demo-link.com
-
-
-
-
