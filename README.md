@@ -61,14 +61,5 @@ Live link (if deployed):
 🔗 https://your-live-demo-link.com
 
 
-👤 Author
-Haseeb
-GitHub: @haseeb2412
-
-📜 License
-MIT License
 
 
----
-
-Let me know if you'd like me to create the `eth-giphy-flow.png` diagram for you too.
