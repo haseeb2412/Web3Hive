@@ -56,6 +56,7 @@ forge build
 forge test
 Make sure you have Foundry installed
 
+```
 ✨ Demo
-Live link (if deployed):
-🔗 https://your-live-demo-link.com
+Live link:
+🔗 [Here is the link](https://haseeb2412.github.io/Web3Hive/)
