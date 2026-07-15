@@ -1,62 +1,110 @@
 # Web3Hive 🐝
 
-**Web3Hive** is a decentralized web application that allows users to **transfer ETH** to others with a custom **message** and a **GIF from Giphy** — making transactions more fun and expressive!
+![Web3Hive Platform Preview](client/images/form-picture.png)
+
+## About Web3Hive
+
+**Web3Hive** is a polished decentralized web application that empowers users to send **ETH**, attach a **personal message**, and add a **GIF from Giphy** to create memorable on-chain interactions.
+
+This repository combines a modern React frontend with a secure Ethereum smart contract backend, making crypto transactions feel engaging, expressive, and user-friendly.
 
 ---
 
-## 📦 Tech Stack
+## 🚀 Why Web3Hive?
 
-### 🔹 Frontend (client/)
+- **Expressive payments** with message + GIF support
+- **Secure wallet connection** via MetaMask
+- **Transaction history** accessible directly in the app
+- **Modern UI/UX** using Tailwind CSS and Framer Motion
+- **Built for learning and sharing** by the Web3 community
+
+---
+
+## 🧠 What’s Included
+
+### Frontend
 - React 19
+- Vite
 - Ethers.js 6
 - Tailwind CSS
 - Framer Motion
 - React Router DOM
-- Giphy API
+- Giphy API integration
 
-### 🔹 Backend (smart_contract/)
-- Foundry (Ethereum smart contract framework)
-
----
-
-## 🖼️ Transaction Flow
-
-[Sender] → [Message + ETH + GIF] → [Smart Contract] → [Receiver sees Message + GIF]
+### Smart Contracts
+- Foundry-powered Solidity development
+- Simple ETH transfer contract with message storage
+- Test coverage using Foundry's Forge
 
 ---
 
-## 🚀 Features
+## 🌟 Project Highlights
 
-- 🔐 Connect wallet using MetaMask
-- 💸 Send ETH to any address with message + GIF
-- 🧾 View all past transactions on the UI
-- 🎨 Smooth animations and responsive design
+### Interactive Transaction Experience
+![Services Graphic](client/images/services.png)
+
+- Send ETH with a message and GIF
+- Store transaction details on-chain
+- View past transactions in the dashboard
+
+### Clean Design & Animation
+![About Me Graphic](client/images/about-me.png)
+
+- Smooth transitions
+- Responsive layout for all screens
+- Focus on usability and visual appeal
+
+### Developer Friendly
+- Clear project separation between `client/` and `smart_contract/`
+- Ready-to-run frontend and contract testing setup
+- Ideal for showcasing Web3 skills and attracting followers
 
 ---
 
-## 🛠️ Getting Started
+## 📁 Repository Structure
 
-### 1. Clone the repository
+- `client/` — React frontend
+- `smart_contract/` — Foundry smart contract project
+- `client/images/` — UI assets used in the README and app
 
+---
+
+## 🛠 Installation
+
+### Frontend
 ```bash
-git clone https://github.com/haseeb2412/Web3Hive
-cd web3hive
-
-2. Install frontend dependencies
-
 cd client
 npm install
 npm run dev
+```
 
-3. Compile smart contracts
-
-
-cd ../smart_contract
+### Smart Contracts
+```bash
+cd smart_contract
 forge build
 forge test
-Make sure you have Foundry installed
-
 ```
-✨ Demo
-Live link:
-🔗 [Here is the link](https://haseeb2412.github.io/Web3Hive/)
+
+> Note: Foundry must be installed to build and test the smart contracts.
+
+---
+
+## 📌 Live Demo
+
+🔗 [Web3Hive Demo](https://haseeb2412.github.io/Web3Hive/)
+
+---
+
+## 💬 Share & Connect
+
+If you publish this repository, use the visuals, project flow, and social sharing to attract followers:
+
+- Showcase the **interactive ETH + GIF send flow**
+- Highlight the **smart contract learning path**
+- Promote the project as a **Web3 portfolio piece**
+
+---
+
+## 🧾 License
+
+This project is open source and ready for contributions. Feel free to fork, star, and share!
